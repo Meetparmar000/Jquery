@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+
+            font-family: 'Courier New', Courier, monospace;
+
+            
+        }
+
+        #box {
+
+            padding: 10px;
+
+            border: 1px solid royalblue;
+
+            background-color: rgb(65, 225, 102);
+
+        }
+    </style>
+</head>
+
+<body>
+    <h1>jquery</h1>
+    <div id="box">
+        <h2>text box</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur labore at quod? Repellendus perferendis
+            iste consequatur quam est harum nobis ipsum accusamus laudantium, minima numquam? Exercitationem, iste!
+            Molestias voluptatum cumque ab doloribus sint ipsum?</p>
+
+        </p>
+
+    </div>
+    <br>
+
+   <button id="slideUpbtn">slideUp</button>
+
+   <button id="slideDownbtn">slideDown</button>
+
+   <button id="SlideTogglebtn">SlideToggle</button>
+
+   <Script src="jquery-3.7.1.min.js"></Script>
+
+   <script>
+
+    $(document).ready(function(){
+
+        $('#slideUpbtn').click(function(){
+
+            $('#box').slideUp();
+        });
+
+
+        $('#slideDownbtn').click(function(){
+
+        $('#box').slideDown();
+    });
+
+
+    $('#SlideTogglebtn').click(function(){
+
+    $('#box').slideToggle();
+    
+    });
+
+
+
+
+    });
+
+    
+   
+   </script>
+    
+
+
+</body>
+
+</html>
+
+
+
+    
+
+
+
+
+
+
